@@ -4,17 +4,18 @@ header {
 	border-width: 1px;
 	margin: 10px;
 	padding: 10px;
-
+	position: static;
 }
 
 .imagem{
-	width: 10px;
+	width: 75px;
+	position: static;
 }
 
 .nav{
-
 }
 
 .nav-item{
 	display: inline;
+	position: relative;
 }

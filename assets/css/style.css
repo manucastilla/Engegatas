@@ -1,0 +1,18 @@
+
+header {
+	border-style:solid;
+	border-width: 1px;
+
+}
+
+.imagem{
+	width: 2px;
+}
+
+.nav{
+
+}
+
+.nav-item{
+	display: inline;
+}

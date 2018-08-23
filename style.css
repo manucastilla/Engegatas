@@ -10,13 +10,16 @@ header {
 
 .imagem{
 	width: 75px;
-	position: static;
+	position: relative;
 }
 
 .nav{ 
 }
 
 .nav-item{
+	margin: 10px;
 	display: inline;
 	position: relative;
+	
+	
 }

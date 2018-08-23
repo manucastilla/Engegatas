@@ -7,6 +7,16 @@ header {
 	padding: 10px;
 	position: static;
 }
+li{
+	background-color: rgb(250,128,114);
+}
+aside {
+	border-style:solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 10px;
+	position: static;
+}
 
 .imagem{
 	width: 75px;
@@ -19,4 +29,7 @@ header {
 .nav-item{
 	display: inline;
 	position: relative;
+}
+.nav-lateral{
+	display: block;
 }

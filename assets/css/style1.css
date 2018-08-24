@@ -8,7 +8,7 @@ header {
 	margin: 0 auto;
 
 }
-main {
+.main {
 	
 }
 .pai{
@@ -43,9 +43,14 @@ main {
 
 .img{
 
+	max-width: 1rem;
 	width: 40%;
 	height: auto;
 	justify-content: center;
+	grid-row-start:  3;
+	grid-row-end: 3;
+	grid-column-start: 5;
+	grid-column-end: 7; 
 
 
 }

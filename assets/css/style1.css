@@ -1,7 +1,72 @@
-.imagem{
+body {
 	display: flex;
-	justify-content: flex-end;
+}
 
-	width: 40%;
+.titulo{
+	background-color: white;
+	font-size: 9rem;
+	margin: 0 auto;
 
 }
+
+.pai{
+	background-color: yellow;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 10 ;
+	grid-template-rows: 10;
+	max-width: 5rem;
+	min-width: 7rem;
+	padding: 1rem;
+
+}
+
+
+.topico1, .topico2, .topico3, .topico4 {
+	justify-content: space-between;
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 1.5rem;
+
+}
+
+.topico1{
+
+	background-color: red;
+	grid-row-start: 0 ;
+	grid-row-end:1;
+	grid-column-start: 1;
+	grid-column-end:2; 
+}
+
+.topico2{
+	background-color: pink;
+	grid-row-start:2 ;
+	grid-row-end:3 ;
+	grid-column-start:2 ;
+	grid-column-end:3 ; 
+}
+
+.topico3{
+	background-color: blue;
+	grid-row-start: 8;
+	grid-row-end: 8;
+	grid-column-start:1 ;
+	grid-column-end:1 ; 
+}
+
+.topico4{
+	background-color: green;
+	grid-row-start:8 ;
+	grid-row-end: 8;
+	grid-column-start: 2;
+	grid-column-end:2 ; 
+}
+
+/*.imagem{
+
+	width: 40%;
+	height: auto;
+	justify-content: center;
+
+}*/

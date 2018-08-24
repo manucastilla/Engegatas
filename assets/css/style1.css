@@ -42,15 +42,17 @@ header {
 }
 
 .img{
-
 	width: 20rem;
-	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	/*display: inline;
+	width: 20rem;*/
+	/*align-items: center;
 	height: auto;
-	justify-content: center;
-	grid-row-start:  3;
-	grid-row-end: 3;
-	grid-column-start: 5;
-	grid-column-end: 7; 
+	grid-row-start:  5;
+	grid-row-end: 5;
+	grid-column-start: 6;
+	grid-column-end: 7; */
 
 }
 

@@ -1,0 +1,64 @@
+header {
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 10px;
+	position: static;
+}
+
+.imagem {
+	width: 75px;
+	position: relative;
+	align-self: flex-start;
+	display: inline-flex;
+}
+
+.parent {
+	background-color: pink;
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+}
+
+.child_1, .child_2, .child_3, .child_4 {
+	display: inline;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.5rem;
+	margin: 1rem;
+	padding: 1rem;
+	width: 10rem;
+} 
+
+main {
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 5px;
+	position: relative;
+	border-radius: 10px;
+	width: 200px;
+}
+
+.lateral {
+	display: grid;
+	position: relative;
+	justify-content: flex-start;
+	align-self: center;
+	grid-gap: 1.5rem;
+	grid-template-columns: 6.5rem;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+main2 {
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 5px;
+	position: relative;
+	border-radius: 10px;	
+}

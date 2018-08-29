@@ -46,34 +46,14 @@ header {
 .img{
 	width: 20rem;
 	align-items: center;
-<<<<<<< HEAD
+
 	grid-row-start:  2;
 	grid-row-end: 2;
 	grid-column-start: 2;
 	grid-column-end: 3; 
-=======
-	display: inline-flex;
-	/*display: inline;
-	width: 20rem;*/
-	/*align-items: center;
-	height: auto;
-<<<<<<< HEAD
-	justify-content: center;
-	grid-row-start:  3;
-	grid-row-end: 3;
-	grid-column-start: 5;
-	grid-column-end: 7; 
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-=======
-	grid-row-start:  5;
-	grid-row-end: 5;
-	grid-column-start: 6;
-	grid-column-end: 7; */
->>>>>>> c51a5292c1c676f461d84a996b77473e2eaff4a8
->>>>>>> fefe76b87f3c53100aecc74d4fff0fbbc7faabc7
+	display: inline-flex;
+
 
 }
 

@@ -27,7 +27,7 @@ header {
 	display: inline;
 	justify-content: center;
 	align-content: center;
-	font-size: 1.5rem;
+	font-size: 1.0rem;
 	margin: 1rem;
 	padding: 1rem;
 	width: 10rem;
@@ -64,6 +64,6 @@ header {
 .title {	
 	margin: 1.5rem 20rem ; 
 	font-size: large;
-	font-style: bold;
+	font-style: oblique;
 
 }

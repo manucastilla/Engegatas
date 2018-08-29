@@ -52,6 +52,9 @@ header {
 	grid-column-start: 5;
 	grid-column-end: 7; 
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 
 }
 

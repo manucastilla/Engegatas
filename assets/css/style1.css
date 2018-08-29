@@ -4,6 +4,7 @@ header {
 
 .titulo{
 	background-color: white;
+	font-family: Rockwell, Enriqueta, sans-serif;
 	font-size: 9rem;
 	margin: 0 auto;
 
@@ -33,6 +34,7 @@ header {
 	border-style: solid;
 	font-size: 2.5rem;
 	text-align: center;
+	font-family: Roboto Condensed, Helvetica, sans-serif; 
 	margin: 1rem;
 	padding: 1rem;
 	width: 15rem;
@@ -44,15 +46,10 @@ header {
 .img{
 	width: 20rem;
 	align-items: center;
-	display: inline-flex;
-	/*display: inline;
-	width: 20rem;*/
-	/*align-items: center;
-	height: auto;
-	grid-row-start:  5;
-	grid-row-end: 5;
-	grid-column-start: 6;
-	grid-column-end: 7; */
+	grid-row-start:  2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3; 
 
 }
 

@@ -15,7 +15,7 @@ header {
 
 	display: grid;
 	position: relative;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-self: flex-start;
 	grid-gap: 2rem;
 	grid-template-rows: 5rem 5rem 5rem;
@@ -42,10 +42,14 @@ header {
 }
 
 .img{
-
-	max-width: 1rem;
-	width: 40%;
+	width: 20rem;
+	align-items: center;
+	display: inline-flex;
+	/*display: inline;
+	width: 20rem;*/
+	/*align-items: center;
 	height: auto;
+<<<<<<< HEAD
 	justify-content: center;
 	grid-row-start:  3;
 	grid-row-end: 3;
@@ -55,6 +59,12 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto 
+=======
+	grid-row-start:  5;
+	grid-row-end: 5;
+	grid-column-start: 6;
+	grid-column-end: 7; */
+>>>>>>> c51a5292c1c676f461d84a996b77473e2eaff4a8
 
 }
 

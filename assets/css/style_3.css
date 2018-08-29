@@ -27,23 +27,28 @@ header {
 	display: inline;
 	justify-content: center;
 	align-content: center;
-	font-size: 1.5rem;
+	font-size: 1.0rem;
 	margin: 1rem;
 	padding: 1rem;
 	width: 10rem;
 } 
 
-main {
+.main {
+	display:flex ;
+	flex-direction: column;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+.lateral {
 	border-style: solid;
 	border-width: 1px;
 	margin: 10px;
 	padding: 5px;
 	position: relative;
 	border-radius: 10px;
-	width: 200px;
-}
-
-.lateral {
+	width: 125px;
 	display: grid;
 	position: relative;
 	justify-content: flex-start;
@@ -51,14 +56,14 @@ main {
 	grid-gap: 1.5rem;
 	grid-template-columns: 6.5rem;
 	padding: 1rem;
-	margin: 1rem;
+	background-color: white;
+	
+
 }
 
-main2 {
-	border-style: solid;
-	border-width: 1px;
-	margin: 10px;
-	padding: 5px;
-	position: relative;
-	border-radius: 10px;	
+.title {	
+	margin: 1.5rem 20rem ; 
+	font-size: large;
+	font-style: oblique;
+
 }

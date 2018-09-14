@@ -116,7 +116,7 @@
              }
         }
     },
-    
+
         "topico4": {
         "name": "Programação",
         "courses": {
@@ -143,8 +143,7 @@
                     "segundo objetivo do projeto",
                     "terceiro objetivo do projeto"
             ]
-        },
+        }
             }
         }
-    },
-}
+    }

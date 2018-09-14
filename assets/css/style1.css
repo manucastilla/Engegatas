@@ -1,11 +1,14 @@
 header {
 	display: flex;
+	margin-top: 2rem;
 }
 
 .titulo{
 	background-color: white;
+
 	font-family: Rockwell, Enriqueta, sans-serif;
 	font-size: 9rem;
+
 	margin: 0 auto;
 
 }
@@ -16,7 +19,7 @@ header {
 
 	display: grid;
 	position: relative;
-	justify-content: space-around;
+	justify-content: center;
 	align-self: flex-start;
 	grid-gap: 2rem;
 	grid-template-rows: 5rem 5rem 5rem;

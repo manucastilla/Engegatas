@@ -78,7 +78,7 @@
                 ]
             }
         }
-    }
+    },
         "topico3": {
         "name": "Estudos Exatos",
         "courses": {
@@ -112,12 +112,11 @@
                     "primeiro objetivo do projeto",
                     "segundo objetivo do projeto",
                     "terceiro objetivo do projeto"
-            ]
-
-        },
-            }
+                ]
+             }
         }
     },
+    
         "topico4": {
         "name": "Programação",
         "courses": {

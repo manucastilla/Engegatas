@@ -1,0 +1,151 @@
+{
+    "topico1": {
+        "name": "Aplicando conhecimento na sociedade",
+        "courses": {
+            "gde": {
+                "name": "Case de Grandes desafios da engenharia",
+                "goals": [
+                    "Case 1: Descoberta do DNA: Abrindo a caixa preta",
+                    "Case 2: O papel do Patriot na guerra do golfo",
+                    "Case 3: Terceira Revolução Industrial e impressora 3D",
+                    "Case 4: Grandes construções, sonhos e quimeras",
+                    "Case 5: Energia: Valor economico, social e ambiental(Petróleo)",
+                    "Case 6: Usos sociais da tecnologia e da energia",
+                    "Case 7: Tecnologia e gênero"
+                ]
+            },
+            "empresa": {
+                "name": "Inovação incremental para empresa existente",
+                "goals": [
+                    "primeiro objetivo de empresa",
+                    "segundo objetivo de empresa",
+                    "terceiro objetivo de empresa"
+                ]
+            },
+             "startup": {
+            	"name": "Modelo de negocio para startup nova",
+            	"goals": [
+                	"primeiro objetivo startup ",
+                	"segundo objetivo startup",
+               		"terceiro objetivo startup"
+            ]
+            }
+        }
+    },
+    "topico2": {
+        "name": "Construções",
+        "courses": {
+            "aciona": {
+                "name": "Projeto Final de Acionamentos Elétricos",
+                "goals": [
+                    "primeiro objetivo de acionamentos elétricos",
+                    "segundo objetivo de acionamentos elétricos",
+                    "terceiro objetivo de acionamentos elétricos"
+                ]
+            },
+            "carroça": {
+                "name": "Melhoria para Carroças dos Catadores",
+                "goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+                ]
+             },
+            "girafa": {
+                "name": "Girafa do Job-Rotation",
+                "goals": [
+                    "primeira etapa do Job-Rotation",
+                    "segunda etapa do Job-Rotation",
+                    "terceira etapa do Job-Rotation",
+                    "quarta etapa do Job-Rotation",
+                    "quinta etapa do Job-Rotation"
+                ]
+             },
+            "instrumed": {
+                "name": "Estação Metereológica",
+                "goals": [
+                    "primeira etapa do projeto",
+                    "segunda etapa do projeto",
+                    "terceira etapa do projeto"
+                ]
+                         },
+            "modcontrole": {
+                "name": "Projeto Finald de Modelagem e Controle",
+                "goals": [
+                    "primeira etapa do projeto",
+                    "segunda etapa do projeto",
+                    "terceira etapa do projeto"
+                ]
+            }
+        }
+    }
+        "topico3": {
+        "name": "Estudos Exatos",
+        "courses": {
+            "materiais": {
+                "name": "Projeto Final de Desconstruindo a Materia",
+                "goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+                ]
+            },
+            "matmult": {
+                "name": "Projeto Final de Matemática Multivariada",
+                "goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+                ]
+            },
+             "matvar": {
+            	"name": "Projeto Final de Matemática da Variação",
+            	"goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+            ]
+           	},
+             "modsim": {
+            	"name": "Projeto Final de Modelagem e Simulação",
+            	"goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+            ]
+
+        },
+            }
+        }
+    },
+        "topico4": {
+        "name": "Programação",
+        "courses": {
+            "codesign": {
+                "name": "Projeto Final de Co-Design de Aplicativos",
+                "goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+                ]
+            },
+            "cd": {
+                "name": "Projeto Final de Ciência dos Dados",
+                "goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+                ]
+            },
+             "desoft": {
+            	"name": "Projeto Final de Design de Software",
+            	"goals": [
+                    "primeiro objetivo do projeto",
+                    "segundo objetivo do projeto",
+                    "terceiro objetivo do projeto"
+            ]
+        },
+            }
+        }
+    },
+}

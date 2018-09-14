@@ -73,3 +73,14 @@ header {
 	font-family: Roboto Condensed, Helvetica, sans-serif; 
 
 }
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.goal {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}

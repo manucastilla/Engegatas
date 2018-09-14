@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
   let db = new DB('https://aula-10-a1ec0.firebaseio.com/')
 
   let tpName = new TP('template-name')
@@ -16,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let goals = document.querySelector('.goals')
     goals.innerHTML = tpGoals.generate({'goals': data['goals']})
+<<<<<<< HEAD
 
 //   let materias = {"Projeto Final de Modelagem e Simulação": 'category'='topico3'}
 
@@ -27,3 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 })
 }
+=======
+   })
+})
+>>>>>>> 2510b75ca7c49937f1cee99154cf7ce2e8049eed

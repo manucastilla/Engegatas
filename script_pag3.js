@@ -15,6 +15,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let goals = document.querySelector('.goals')
     goals.innerHTML = tpGoals.generate({'goals': data['goals']})
+<<<<<<< HEAD
 
 })
 })
+=======
+
+
+//   let materias = {"Projeto Final de Modelagem e Simulação": 'category'='topico3'}
+
+//   let laterais = document.querySelectorAll('.lateral')
+
+//   for(let lateral of laterais)
+//     {lateral.innerHTML=materias[lateral.innerHTML]}
+// 
+
+})})
+
+
+>>>>>>> 2359ed58d91014d3da873a2c0c12c59a125ea69c

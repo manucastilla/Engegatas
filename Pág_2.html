@@ -5,6 +5,22 @@
 		<link href="assets/css/reset.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 		<link href="assets/css/style_2.css" rel="stylesheet">
+		<script src="lib/app.js"></script>
+    	<script src="lib/database.js"></script>
+    	<script src="lib/codes.js"></script>
+   	 	<script src="lib/handlebars.js"></script>
+		<script src="script_pag2.js"></script>
+
+		<script id="template-nome" type="text/x-handlebars-template">
+      	{{nome}}
+    	</script>
+
+    	<script id="template-name" type="text/x-handlebars-template">
+      	{{#each name}}
+        <li class="name">{{this}}</li>
+      	{{/each}}
+    	</script>
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -24,9 +40,19 @@
 	
 	<main>
 		<div class = "box">
-			<div class = "box1"> <a href="Pág_3.html?category=topico3&course=modsim">
-			Projeto Final de Modelagem e Simulação do Mundo Físico
-			</a></div>
+			<div class = "box1"> 
+				<script src="lib/app.js"></script>
+		    	<script src="lib/database.js"></script>
+		    	<script src="lib/codes.js"></script>
+		   	 	<script src="lib/handlebars.js"></script>
+				<script src="script_pag2.js"></script>
+
+		    	<script id="template-name" type="text/x-handlebars-template">
+		      	{{#each name}}
+		        <li class="name">{{this}}</li>
+		      	{{/each}}
+		    	</script>
+			</div>
 			<div class = "box2"> <a href="Pág_3.html?category=topico3&course=matmult">
 			Projeto Final de Matemática Multivariada
 			</a></div>

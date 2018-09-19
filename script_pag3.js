@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let goals = document.querySelector('.goals')
     goals.innerHTML = tpGoals.generate({'goals': data['goals']})
+    
 
 
 //   let materias = {"Projeto Final de Modelagem e Simulação": 'category'='topico3'}

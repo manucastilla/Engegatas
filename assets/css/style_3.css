@@ -33,13 +33,18 @@ header {
 
 .child_1, .child_2, .child_3, .child_4 {
 	display: inline;
-	justify-content: center;;
+	position: relative;
+	flex-grow: 1;
+	justify-content: center;
 	align-content: center;
 	font-family: Roboto Condensed, Helvetica, sans-serif; 
 	font-size: 1.0rem;
 	margin: 1rem;
 	padding: 1rem;
 	width: 10rem;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
 } 
 
 .main {
@@ -61,7 +66,6 @@ header {
 	border-radius: 0.625rem
 	width: 7.8125rem;
 	display: grid;
-	position: relative;
 	justify-content: flex-start;
 	align-self: center;
 	grid-gap: 1.5rem;
@@ -71,6 +75,44 @@ header {
 	
 
 }
+
+
+
+
+
+
+.sub {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .5s, visibility .5s;
+}
+
+.sub-item {
+	color: rgb(0,0,0);
+}
+
+.child_1:hover .sub {
+    opacity: 1;
+    visibility: visible;
+}
+
+.child_2:hover .sub {
+	opacity: 1;
+	visibility: visible;
+}
+
+.sub-item:hover {
+	border-style: solid;
+	border-width: 0.550px;
+	border-color: (0,0,0);
+    background-color: rgb(253,206,5);
+}
+
+
+
+
+
 
 .title {	
 	margin: 1.5rem 20rem ; 
@@ -90,6 +132,13 @@ header {
   margin-bottom: 1rem;
   margin-left: 1.5rem;
 }
+
+
+
+
+
+
+
 
 @media (max-width: 380px) {
 	.imagem {

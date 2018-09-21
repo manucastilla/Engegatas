@@ -91,9 +91,9 @@ header {
   margin-left: 1.5rem;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 380px) {
 	.imagem {
-		width: 20%;
+		width: 60px;
 		position: relative;
 		align-self: flex-start;
 		display: inline-flex;

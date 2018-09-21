@@ -139,19 +139,21 @@ header {
 		margin: 5%;
 		padding: 5%;
 		width: 5%;
+		background-color: black;
 		top: 0;
-
+        left: -100%;
+        transition: left .5s;
 
 	} 
 
-	li{
+	/*li{
 		background-color: black;
 		top: 0;
         left: -90%;
         transition: left .5s;
 	
-}
-	.imagem:hover + li{
+}*/
+	.image:hover + .child_1, .child_2, .child_3, .child_4{
         left: 0;
     }
 	.lateral {
@@ -173,6 +175,8 @@ header {
 		grid-template-columns: 6.5rem;
 		padding: 1rem;
 		background-color: white;
+		left: -100%;
+        transition: left .5s;
 		 top: 0; 
 	 
        

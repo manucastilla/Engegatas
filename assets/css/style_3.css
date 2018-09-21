@@ -133,6 +133,7 @@ header {
   margin-left: 1.5rem;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -141,53 +142,90 @@ header {
 
 
 @media (max-width: 380px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> bbb097e9fed45f6ef1aadc7d6c248563e47df5ba
 	.imagem {
-		width: 60px;
+		width: 40px;
 		position: relative;
 		align-self: flex-start;
 		display: inline-flex;
 	}
 
-	.parent {
-		background-color: rgb(253,206,5);
-		height: 100%;
-        width: 90%;
-        position: relative;
-        top: 0;
-        
+	.header {
+		border-style: solid;
+		border-width: 0px;
+		color: rgb(253,206,5);
+		margin: 0 auto;
+		padding: 1px;
+		max-width: 1208px;
+		/*
+		min-width: 550px;*/
+		font-family: Rockwell, Enriqueta, sans-serif;
+		position: static;
+
+
 	}
 
+
+	.parent {
+		background-color: rgb(253,206,5);
+		margin: 0.7rem;
+		padding: 0.7rem;
+		max-width: 1208px;
+		/*
+		min-width: 550px;*/
+		display: flex;
+		position: relative;
+		justify-content: center;
+		align-content: center;
+	        
+		}
+
 	.child_1, .child_2, .child_3, .child_4 {
-		display: inline;
+		display: block;
 		justify-content: center;;
 		align-content: center;
 		font-family: Roboto Condensed, Helvetica, sans-serif; 
 		font-size: 0.5rem;
+		position: fixed;
 		margin: 5%;
 		padding: 5%;
 		width: 5%;
-		left: -90%;
-        transition: left .5s;
+		top: 0;
+
+
 	} 
 
-	.lateral {
-	border-style: solid;
-	font-family: Roboto Condensed, Helvetica, sans-serif; 
-	color: rgb(136, 21, 29);
-	border-width: 0.0625rem;
-	margin: 0.625rem;
-	padding: 0.3125rem;
-	position: relative;
-	border-radius: 0.625rem
-	width: 7.8125rem;
-	display: grid;
-	position: relative;
-	justify-content: flex-start;
-	align-self: center;
-	grid-gap: 1.5rem;
-	grid-template-columns: 6.5rem;
-	padding: 1rem;
-	background-color: white;
-	 top: 0;
+	li{
+		background-color: black;
+		top: 0;
         left: -90%;
         transition: left .5s;
+	
+}
+	.imagem:hover + li{
+        left: 0;
+    }
+	.lateral {
+		display: inline;
+		border-style: solid;
+		font-family: Roboto Condensed, Helvetica, sans-serif; 
+		color: rgb(136, 21, 29);
+		border-width: 0.0625rem;
+		margin: 0.625rem;
+		padding: 0.3125rem;
+		position: relative;
+		border-radius: 0.625rem
+		width: 7.8125rem;
+		
+		position: relative;
+		justify-content: flex-start;
+		align-self: center;
+		grid-gap: 1.5rem;
+		grid-template-columns: 6.5rem;
+		padding: 1rem;
+		background-color: white;
+		 top: 0; 
+	 
+       

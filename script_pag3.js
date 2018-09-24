@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let url = '/' + params.get('category') + '/courses/' + params.get('course') + '/'
 
   db.download(url, function(data) {
-    let name = document.querySelector('.name')
-    name.innerHTML = tpName.generate({'name': data['name']})
+    // let name = document.querySelector('.name')
+    // name.innerHTML = tpName.generate({'name': data['name']})
 
-    let goals = document.querySelector('.goals')
-    goals.innerHTML = tpGoals.generate({'goals': data['goals']})
+    // let goals = document.querySelector('.goals')
+    // goals.innerHTML = tpGoals.generate({'goals': data['goals']})
 
 })
 })

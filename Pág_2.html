@@ -9,7 +9,6 @@
     	<script src="lib/database.js"></script>
     	<script src="lib/codes.js"></script>
    	 	<script src="lib/handlebars.js"></script>
-		<script src="script_t1.js"></script>
 		<script src="script_pag2.js"></script>
 
 		<script id="template-nome" type="text/x-handlebars-template">
@@ -33,7 +32,7 @@
 				<ul>
 					<li class = "child_1"> <a href="Aplicando_conhecimentos_na_sociedade.html"> Aplicando Conhecimentos na Sociedade </a></li>
 					<li class = "child_2"> <a href="Construções.html"> Construções </a></li>
-					<li class = "child_3"> <a href="pag_3.html"> Estudos Exatos </a></li>
+					<li class = "child_3"> <a href="Pág_3.html"> Estudos Exatos </a></li>
 					<li class = "child_4"> <a href="Programação.html"> Programação </a></li>
 				</ul>
 			</div>
@@ -41,33 +40,6 @@
 	
 	<main>
 		<div class = "box">
-			{{#each courses as |course key|}}
-				<div class = "subbox"> <a href='pag_3.html?topico={{course.topico}}&courses={{course.curso}}'>
-					{{course.nome}}
-				</a></div>
-			{{/each}}
-<!--
-			<div class = "box1"> <a href='/topico3/courses'>
-				{{nome}}
-			</a></div>
-
-
-
-			<div class = "box2"> <a href='/topico3/courses'>
-				Projeto Final de Matemática Multivariada
-			</a></div>
-
-			<div class = "box3">  <a href='/topico3/courses'>
-
-
-				Projeto Final de Desconstruindo a Matéria
-			</a></div>
-
-			<div class = "box4"> <a href='/topico3/courses'>
-				Projeto Final de Matemática da Variação
-			</a></div>
--->
-
 			<div class = "box1"> 
 				<script src="lib/app.js"></script>
 		    	<script src="lib/database.js"></script>

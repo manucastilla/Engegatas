@@ -9,7 +9,22 @@
     	<script src="lib/database.js"></script>
     	<script src="lib/codes.js"></script>
    	 	<script src="lib/handlebars.js"></script>
+<<<<<<< HEAD:pag_2.html
 		<script src="script_t1.js"></script>
+=======
+		<script src="script_pag2.js"></script>
+
+		<script id="template-nome" type="text/x-handlebars-template">
+      	{{nome}}
+    	</script>
+
+    	<script id="template-name" type="text/x-handlebars-template">
+      	{{#each name}}
+        <li class="name">{{this}}</li>
+      	{{/each}}
+    	</script>
+
+>>>>>>> 6e6831e29234c38e721a9a1a40b10aa1a12b33d2:Pág_2.html
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -29,6 +44,7 @@
 	
 	<main>
 		<div class = "box">
+<<<<<<< HEAD:pag_2.html
 			{{#each courses as |course key|}}
 				<div class = "subbox"> <a href='pag_3.html?topico={{course.topico}}&courses={{course.curso}}'>
 					{{course.nome}}
@@ -56,6 +72,30 @@
 			</a></div>
 -->
 
+=======
+			<div class = "box1"> 
+				<script src="lib/app.js"></script>
+		    	<script src="lib/database.js"></script>
+		    	<script src="lib/codes.js"></script>
+		   	 	<script src="lib/handlebars.js"></script>
+				<script src="script_pag2.js"></script>
+
+		    	<script id="template-name" type="text/x-handlebars-template">
+		      	{{#each name}}
+		        <li class="name">{{this}}</li>
+		      	{{/each}}
+		    	</script>
+			</div>
+			<div class = "box2"> <a href="Pág_3.html?category=topico3&course=matmult">
+			Projeto Final de Matemática Multivariada
+			</a></div>
+			<div class = "box3"> <a href="Pág_3.html?category=topico3&course=materiais">
+			Projeto Final de Desconstruindo a Matéria
+			</a></div>
+			<div class = "box4"> <a href="Pág_3.html?category=topico3&course=matvar">
+			Projeto Final de Matemática da Variação
+			</a></div>
+>>>>>>> 6e6831e29234c38e721a9a1a40b10aa1a12b33d2:Pág_2.html
 		</div>
 	</main>	
 	</body>

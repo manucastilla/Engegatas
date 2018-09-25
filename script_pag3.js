@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
   let db = new DB('https://aula-10-a1ec0.firebaseio.com/')
 
   let tpName = new TP('template-name')

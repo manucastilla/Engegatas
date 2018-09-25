@@ -9,8 +9,17 @@
     	<script src="lib/database.js"></script>
     	<script src="lib/codes.js"></script>
    	 	<script src="lib/handlebars.js"></script>
-		<!--<script src="script_pag3.js"></script>-->
-		<script src="script_t1.js"></script>
+		<script src="script_pag3.js"></script>
+
+		<script id="template-name" type="text/x-handlebars-template">
+      	{{name}}
+    	</script>
+
+    	<script id="template-goals" type="text/x-handlebars-template">
+      	{{#each goals}}
+        <li class="goal">{{this}}</li>
+      	{{/each}}
+    	</script>
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +28,7 @@
 		<header class = "header">
 			<div class = 'parent'>
 				<img class = "imagem" src = "assets/img/raposaa.png" alt = 'Imagem_Raposa'>
-				<ul class="ul">	
+				<ul>	
 					<li class = "child_1"> Aplicando Conhecimentos na Sociedade
 						<ul class = "sub">
 							<li class = "sub-item"> Inovação Incremental para Empresa Existente </li>
@@ -57,13 +66,10 @@
 	
 	<main class="main">
 		<section class = "lateral">
-			{{#each courses as |course key|}}
 			<div class = "l1">
-				{{course.nome}}
-				<a href='pag_3.html?topico={{course.topico}}&courses={{course.curso}}'>
+				<a href="ModSim">Projeto Final de Modelagem e Simulação do Mundo Físico</a>
 			</div>
-			{{/each}}
-			<!--<div class = "l2">
+			<div class = "l2">
 				<a href="MatMulti">Projeto Final de Matemática Multivariada</a>
 			</div>
 			<div class = "l3">
@@ -71,31 +77,12 @@
 			</div>
 			<div class = "l4">
 				<a href="MatVar">Projeto Final de Matemática da Variação</a>
-			</div>-->
+			</div>
 		</section>
 		<section class = "text">
-		<h1 class="name"></h1>
-			<ul>{{#each courses as |course key|}}
-        		<li class="topperson">{{course.nome}}</li>
-        	</ul>{{/each}}
-
-        	<ul>{{#each courses as |course key|}}
-        		<li class="topperson">{{course.goals}}</li>
-        	</ul>{{/each}}
+			<h1 class="name"></h1>
 			<ul class="goals"></ul>
 		</section>
-
-
-		<!--<script id="template-name" type="text/x-handlebars-template">-->
-      	{{nome}}
-    	<!--</script>-->
-
-    	<!--<script id="template-goals" type="text/x-handlebars-template">-->
-      	
-
- 
-    	<!--</script>-->
-
 	</main>
 	</body>
 </html>

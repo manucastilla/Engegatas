@@ -35,13 +35,13 @@ header {
 	
 
 	border-style: solid;
-	border-radius: 40rem;
+	border-radius: 60rem;
 	background-color: rgb(253, 206, 5);
 	font-size: 2.5rem;
 	text-align: center;
 	font-family: Roboto Condensed, Helvetica, sans-serif; 
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 3rem;
 	width: 15rem;
 	height:10rem;
 	grid-gap: 1rem;

@@ -12,7 +12,10 @@
                     "Case 5: Energia: Valor economico, social e ambiental(Petróleo)",
                     "Case 6: Usos sociais da tecnologia e da energia",
                     "Case 7: Tecnologia e gênero"
-                ]
+                ],
+
+                "topico": "topico1",
+                "curso": "gde"
             },
             "empresa": {
                 "nome": "Inovação incremental para empresa existente",

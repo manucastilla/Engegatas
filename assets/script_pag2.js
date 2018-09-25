@@ -15,16 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let goals = document.querySelector('.goals')
     goals.innerHTML = tpGoals.generate({'goals': data['goals']})
-
+    console.log(data)
+  })
 })
-})
-
-
-
-//   let materias = {"Projeto Final de Modelagem e Simulação": 'category'='topico3'}
-
-//   let laterais = document.querySelectorAll('.lateral')
-
-//   for(let lateral of laterais)
-//     {lateral.innerHTML=materias[lateral.innerHTML]}
-// 

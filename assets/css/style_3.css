@@ -190,29 +190,66 @@ header {
 
 	.child_1, .child_2, .child_3, .child_4 {
 		display: block;
-		justify-content: center;;
-		align-content: center;
 		font-family: "Roboto Condensed", "Helvetica", sans-serif; 
-		font-size: 0.5rem;
-		position: fixed;
+		font-size: 0.7rem;
+		
 		margin: 5%;
-		padding: 5%;
-		width: 5%;
-		background-color: black;
-		top: 0;
-	
-        left: -100%;
-        transition: left .5s;
+		padding: 10%;
+		width: 20%;
+		background-color: rgb(253,206,5);
 
 	} 
 
+	.ul{
+		position: fixed;
+		top: 0;
+        left: -90%;
+        transition: left .5s;
 	}
 
-	.image:hover + ul {
-        left: 90%;
-
+	.imagem:hover + .ul {
+		left:0;
     }
 	
+.sub {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .5s, visibility .5s;
+	left: 0;
+}
+
+.sub-item {
+	color: rgb(0,0,0);
+}
+
+.child_1:hover .sub {
+    opacity: 1;
+    visibility: visible;
+}
+
+.child_2:hover .sub {
+	opacity: 1;
+	visibility: visible;
+}
+
+.child_3:hover .sub {
+	opacity: 1;
+	visibility: visible;
+}
+
+.child_4:hover .sub {
+	opacity: 1;
+	visibility: visible;
+}
+
+.sub-item:hover {
+	border-style: solid;
+	border-width: 0.550px;
+	border-color: rgb(0,0,0);
+    background-color: rgb(253,206,5);
+}
+
 
 	.lateral {
 		display: inline;
@@ -235,5 +272,5 @@ header {
 		background-color: white;
 		left: -100%;
  }
-	 
+}
        

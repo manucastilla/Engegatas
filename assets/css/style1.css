@@ -35,6 +35,7 @@ header {
 	
 
 	border-style: solid;
+	border-radius: 40rem;
 	background-color: rgb(253, 206, 5);
 	font-size: 2.5rem;
 	text-align: center;
@@ -53,8 +54,8 @@ header {
 
 	grid-row-start:  2;
 	grid-row-end: 2;
-	grid-column-start: 6;
-	grid-column-end: 6; 
+	grid-column-start: 12;
+	grid-column-end: 12; 
 
 	display: inline-flex;
 
@@ -65,31 +66,31 @@ header {
 
 	grid-row-start:  1;
 	grid-row-end: 2;
-	grid-column-start: 6;
-	grid-column-end:6; 
+	grid-column-start: 11;
+	grid-column-end: 11; 
 }
 
 .topico2{
 	grid-row:  1;
 	grid-row-end:2;
-	grid-column-start:12;
-	grid-column-end:12;
+	grid-column-start:13;
+	grid-column-end:13;
 }
 
 .topico3{
 	
 	grid-row-start: 4;
 	grid-row-end: 5;
-	grid-column-start:6 ;
-	grid-column-end:6 ; 
+	grid-column-start:11 ;
+	grid-column-end:11 ; 
 }
 
 .topico4{
 	
 	grid-row-start:4 ;
 	grid-row-end: 5;
-	grid-column-start: 11;
-	grid-column-end: 11; 
+	grid-column-start: 13;
+	grid-column-end: 13; 
 }
 
 /*.imagem{

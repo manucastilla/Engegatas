@@ -13,7 +13,6 @@
     // let name = document.querySelector('.name')
     // name.innerHTML = tpName.generate({'name': data['name']})
 
-<<<<<<< HEAD
     let goals = document.querySelector('.goals')
     goals.innerHTML = tpGoals.generate({'goals': data['goals']})
 
@@ -29,10 +28,6 @@
 //   for(let lateral of laterais)
 //     {lateral.innerHTML=materias[lateral.innerHTML]}
 // 
-=======
+
     // let goals = document.querySelector('.goals')
     // goals.innerHTML = tpGoals.generate({'goals': data['goals']})
-
-})
-})
->>>>>>> 6e6831e29234c38e721a9a1a40b10aa1a12b33d2

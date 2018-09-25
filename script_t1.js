@@ -11,9 +11,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	console.log(url)
 
 	db.download(url2,function(data){
-		replace('head', {
-			'courses': data
+		for (let key of data){
+			if (key == empresa )
+				replace('body', {
+				'curs': data[key][goals],
+				'nome': data[key][nome],
+
 		})
+			console.log(data[key][nome])
+		}
+		
 	})
 
     db.download(url, function(data) {

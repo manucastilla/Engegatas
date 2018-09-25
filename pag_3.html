@@ -20,14 +20,14 @@
 			<div class = 'parent'>
 				<img class = "imagem" src = "assets/img/raposaa.png" alt = 'Imagem_Raposa'>
 				<ul class="ul">	
-					<li class = "child_1"> Aplicando Conhecimentos na Sociedade
+					<li class = "child_1"> Aplicando Conhecimentos na Sociedade <a href='pag_3.html?topico=topico1&courses={{course.curso}}'>
 						<ul class = "sub">
 							<li class = "sub-item"> Inovação Incremental para Empresa Existente </li>
 							<li class = "sub-item"> Case de Grandes Desafios da Engenharia </li>
 							<li class = "sub-item"> Modelo de Negócio para Start-up Nova </li>
 						</ul>
 					</li>
-					<li class = "child_2"> Construções
+					<li class = "child_2"> Construções<a href='pag_3.html?topico=topico2&courses={{course.curso}}'>
 						<ul class = "sub">
 							<li class = "sub-item"> Projeto 1 de Acionamentos Elétricos </li>
 							<li class = "sub-item"> Melhoria para Carroças dos Catadores </li>
@@ -36,7 +36,7 @@
 							<li class = "sub-item"> Projeto Final de Modelagem e Controle </li>
 						</ul>
 					</li>
-					<li class = "child_3"> Estudos Exatos
+					<li class = "child_3"> Estudos Exatos<a href='pag_3.html?topico=topico3&courses={{course.curso}}'>
 						<ul class = "sub">
 							<li class = "sub-item"> Projeto Final de Modelagem e Simulação do Mundo Físico </li>
 							<li class = "sub-item"> Projeto Final de Matemática Multivariada </li>
@@ -44,7 +44,7 @@
 							<li class = "sub-item"> Projeto Final de Matemática da Variação </li>
 						</ul>
 					</li>
-					<li class = "child_4"> Programação
+					<li class = "child_4"> Programação<a href='pag_3.html?topico=topico4&courses={{course.curso}}'>
 						<ul class = "sub">
 							<li class = "sub-item"> Projeto Final de Ciência dos Dados </li>
 							<li class = "sub-item"> Projeto Final de Co-Design de Aplicativos </li>
@@ -58,31 +58,22 @@
 	<main class="main">
 		<section class = "lateral">
 			{{#each courses as |course key|}}
-			<div class = "l1">
+			<div class = "l1"><a href='pag_3.html?topico={{course.topico}}&courses={{course.curso}}'>
 				{{course.nome}}
-				<a href='pag_3.html?topico={{course.topico}}&courses={{course.curso}}'>
-			</div>
+				
+			</a></div>
 			{{/each}}
-			<!--<div class = "l2">
-				<a href="MatMulti">Projeto Final de Matemática Multivariada</a>
-			</div>
-			<div class = "l3">
-				<a href="DesMa">Projeto Final de Desconstruindo a Matéria</a>
-			</div>
-			<div class = "l4">
-				<a href="MatVar">Projeto Final de Matemática da Variação</a>
-			</div>-->
+			
+
 		</section>
 		<section class = "text">
-		<h1 class="name"></h1>
-			<ul>{{#each courses as |course key|}}
-        		<li class="topperson">{{course.nome}}</li>
-        	</ul>{{/each}}
+			<h1 class="name">{{nome}}</h1>
+        		
+        	<div><ul>
+        			<li class="topperson">{{curs}}</li>
+        	</ul></div>
 
-        	<ul>{{#each courses as |course key|}}
-        		<li class="topperson">{{course.goals}}</li>
-        	</ul>{{/each}}
-			<ul class="goals"></ul>
+
 		</section>
 
 

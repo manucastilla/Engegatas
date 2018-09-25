@@ -23,7 +23,7 @@ header {
 	align-self: flex-start;
 	grid-gap: 2rem;
 	grid-template-rows: 5rem 5rem 5rem;
-	grid-template-columns: auto 1fr 1fr 3fr 3fr 1fr 1fr 1fr ;
+	grid-template-columns: auto 1fr 1fr 1fr 1fr 3fr 3fr 3fr 1fr 1fr 1fr 1fr ;
 	padding: 1rem;
 	margin: 1rem;
 	
@@ -39,7 +39,7 @@ header {
 	font-size: 2.5rem;
 	text-align: center;
 	font-family: Roboto Condensed, Helvetica, sans-serif; 
-	margin: 1rem;
+	margin: 0 auto;
 	padding: 1rem;
 	width: 15rem;
 	height:10rem;
@@ -53,8 +53,8 @@ header {
 
 	grid-row-start:  2;
 	grid-row-end: 2;
-	grid-column-start: 3;
-	grid-column-end: 3; 
+	grid-column-start: 6;
+	grid-column-end: 6; 
 
 	display: inline-flex;
 
@@ -65,31 +65,31 @@ header {
 
 	grid-row-start:  1;
 	grid-row-end: 2;
-	grid-column-start: 2;
-	grid-column-end:3; 
+	grid-column-start: 6;
+	grid-column-end:6; 
 }
 
 .topico2{
 	grid-row:  1;
 	grid-row-end:2;
-	grid-column-start:5 ;
-	grid-column-end:6 ; 
+	grid-column-start:12;
+	grid-column-end:12;
 }
 
 .topico3{
 	
 	grid-row-start: 4;
 	grid-row-end: 5;
-	grid-column-start:2 ;
-	grid-column-end:2 ; 
+	grid-column-start:6 ;
+	grid-column-end:6 ; 
 }
 
 .topico4{
 	
 	grid-row-start:4 ;
 	grid-row-end: 5;
-	grid-column-start: 5;
-	grid-column-end: 6; 
+	grid-column-start: 11;
+	grid-column-end: 11; 
 }
 
 /*.imagem{

@@ -41,43 +41,100 @@
             "aciona": {
                 "nome": "Projeto Final de Acionamentos Elétricos",
                 "goals": [
-                    "primeiro objetivo de acionamentos elétricos",
-                    "segundo objetivo de acionamentos elétricos",
-                    "terceiro objetivo de acionamentos elétricos"
+                    "Professores: Carlos Novaes, Fábio Poloni, Rodrigo Carareto."
+
                 ]
             },
             "carroça": {
                 "nome": "Melhoria para Carroças dos Catadores",
                 "goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Betão, Daniel Faria, Victor Macul ",
+
+                    "Melhoria na carroça",
+
+                    "VISÃO GERAL",
+                
+                    "Neste projeto, usaremos o método de Design Thinking, entrevistaremos os usuários, e a partir disso desenvolveremos melhorias para as carroças.",
+               
+                    "MÉTODOS",
+
+                    "Instrumentos",
+
+                        "Os instrumentos utilizados para executar esse projeto foram:",
+                        
+                        "Fusion 360",
+                        "Máquinas Fab Lab",
+                        "Benchmarking",
+
+                        "Entregas",
+
+                            "Entrega 1: Entrevista com os Carroceiros",
+                            "Entrega 2: EPs",
+                            "Entrega 3: Protótipo Virtual",
+                            "Entrega 4: Protótipo Fisíco",
+                            "Entrega 5: Cartaz",
+                            "Entrega 6: Apresentação",
+
+
+                    "CONCLUSÃO",
+                    
+                        "No final do projeto aprendemos a usar o Design Thinking, melhoramos nossas habilidades no Fusion 360 e nas máquinas do Fab Lab, e desenvolvemos melhorias ."
                 ]
              },
             "girafa": {
                 "nome": "Girafa do Job-Rotation",
                 "goals": [
-                    "primeira etapa do Job-Rotation",
-                    "segunda etapa do Job-Rotation",
-                    "terceira etapa do Job-Rotation",
-                    "quarta etapa do Job-Rotation",
-                    "quinta etapa do Job-Rotation"
+                    "Cortar o corpo na Fresadora Shopbot",
+                    "Imprimir os chifres da Girafa na Impressora 3D",
+                    "Impressão da placa na fresadora Millena",
+                    "Solda dos componentes na Estação de Solda",
+                    "Cortar a cabeça, patas e ocúlos da girafa na laser",
+                    "Cortar os ocúlos na cortadora de Vinil"
                 ]
              },
             "instrumed": {
                 "nome": "Estação Metereológica",
                 "goals": [
-                    "primeira etapa do projeto",
-                    "segunda etapa do projeto",
-                    "terceira etapa do projeto"
+                    "Professores: Fábio Bobrow, Carlos Novaes, Fábio Ferraz ",
+
+                    "Estação Metereológica",
+
+                    "VISÃO GERAL",
+                
+                    "Neste projeto, em grupos de 3 pessoas iremos montar uma estação metereológica",
+
+                    "Instrumentos",
+
+                        "Os instrumentos utilizados para executar esse projeto foram:",
+                        
+                        "Protoboard",
+                        "Placa de cobre",
+                        "Sensor de Temperatura",
+                        "Sensor de Umidade",
+                        "Sensor de Pressão",
+                        "Sensor de Luminosidade",
+                        "Arduino",
+                        "Eagle",
+
+    
+                    "Entregas",
+                        
+                        "Entrega 1: Estação Metereológica Funcionando e Relatório",
+
+
+                    "CONCLUSÃO",
+                    
+                        "No final do projeto tinhamos construído a estação metereológica e a mesma estava funcionando adequadamente, com isso aprendemos a utilizar o Arduino e a programá-lo. Aprendemos também a utilizar o Eagle e aperfeiçoamos nossas habilidades na Millena."
                 ]
                          },
             "modcontrole": {
+<<<<<<< HEAD
                 "nome": "Projeto Finald de Modelagem e Controle",
+=======
+                "nome": "Projeto Final de Modelagem e Controle",
+>>>>>>> 6e6831e29234c38e721a9a1a40b10aa1a12b33d2
                 "goals": [
-                    "primeira etapa do projeto",
-                    "segunda etapa do projeto",
-                    "terceira etapa do projeto"
+                    "Esse Projeto será feito no quarto semestre"
                 ]
             }
         }
@@ -88,33 +145,65 @@
             "materiais": {
                 "nome": "Projeto Final de Desconstruindo a Materia",
                 "goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Esse Projeto será feito no terceiro semestre"      
                 ]
             },
             "matmult": {
                 "nome": "Projeto Final de Matemática Multivariada",
                 "goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Esse Projeto será feito no terceiro semestre"
                 ]
             },
              "matvar": {
             	"nome": "Projeto Final de Matemática da Variação",
             	"goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Angélica Turaça, Fábio Orfali, Leonidas Sandoval",
+                    "Este projeto ainda será realizado este semestre, porém não temos as instruções no momento."
             ]
            	},
              "modsim": {
             	"nome": "Projeto Final de Modelagem e Simulação",
             	"goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Fábio Hage, Fábio Pelicano e Paulina Achurra",
+
+                    "Sistemas Mecânicos",
+
+                    "VISÃO GERAL",
+                
+                    "Neste projeto, nosso foco será a modelagem de sistemas mecânicos – “mecânicos” no sentido comumente utilizado na Física, ou seja, o estudo do movimento de corpos macroscópicos. Usando sistema de equações diferenciais que, serao modelados por diagramas de corpo livre. Em geral, sistemas                mecânicos usam quantidades vetoriais em vez de quantidades escalares, e é comum que as equações diferenciais sejam de segunda ordem.",
+               
+                    "MÉTODOS",
+
+                    "Instrumentos",
+
+                        "Os instrumentos utilizados para executar esse projeto foram:",
+                        
+                        
+                            "Programação: Jupyter",
+                            "Definir o estudo de física:",
+                                
+                                    "Ponto materiais em movimento livre",
+                                    "Rotação Pura",
+                                    "Corpos Rígidos e Movimento livre",
+                                    "Corpor Rígidos em movimento restringido",
+                                
+                        
+                        "Entregas",
+
+                        
+                            "Entrega 1: Descrição do Projeto",
+                            "Entrega 2: Planejamento do Projeto",
+                            "Entrega 3: Criação do Modelo e Equações",
+                            "Entrega 4: Implementação no Jupyter e rascunho do cartaz",
+                            "Entrega 5: Apresentação Final",
+                        
+
+                        
+
+                    "CONCLUSÃO",
+                    
+                        "No final do projeto aprendemos a utilizar o ODEINT  e aplicar esse método do python à sistemas mecânicos."
+                    
                 ]
              }
         }
@@ -126,27 +215,81 @@
             "codesign": {
                 "nome": "Projeto Final de Co-Design de Aplicativos",
                 "goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Marcelo Hashimoto, Luiz Fernando Cardoso, Ana Paula da Silva, Miguel Chaves",
+                    "Ainda não recebemos todas as instruções, porém nesse projeto iremos criar um conceito real de aplicativo desde o início e realizaremos um protótipo para um usuário real."
+
                 ]
             },
             "cd": {
                 "nome": "Projeto Final de Ciência dos Dados",
                 "goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Daniel Carvalho, Fábio Ayres, Fábio Miranda",
+
+                    "Criação de um jogo",
+
+                    "VISÃO GERAL",
+                
+                    "Neste projeto, em grupos de 3 pessoas iremos desenvolver um jogo ou software com as habilidades de python desenvolvidas ao longo do semestre.",
+                    "MÉTODOS",
+
+                    "Instrumentos",
+
+                        "Os instrumentos utilizados para executar esse projeto foram:",
+                        
+                        "Python",
+                        "Pygame",
+                        "GitHub",
+
+    
+                    "Entregas",
+
+                        
+                        "Entrega 1: Proposta do Projeto",
+                        "Entrega 2: Jogo pronto com o código no GitHub",
+                        "Entrega 3: Feira de todos os projetos",
+
+
+                    "CONCLUSÃO",
+                    
+                        "No final do projeto aprendemos a utilizar o pygame e aprimoramos nossas habilidades em python."
                 ]
             },
              "desoft": {
             	"nome": "Projeto Final de Design de Software",
             	"goals": [
-                    "primeiro objetivo do projeto",
-                    "segundo objetivo do projeto",
-                    "terceiro objetivo do projeto"
+                    "Professores: Daniel Carvalho, Fábio Ayres, Raul Ikeda",
+
+                    "Criação de um jogo",
+
+                    "VISÃO GERAL",
+                
+                    "Neste projeto, em grupos de 3 pessoas iremos desenvolver um jogo ou software com as habilidades de python desenvolvidas ao longo do semestre.",
+                    "MÉTODOS",
+
+                    "Instrumentos",
+
+                        "Os instrumentos utilizados para executar esse projeto foram:",
+                        
+                        "Python",
+                        "Pygame",
+                        "GitHub",
+
+    
+                    "Entregas",
+
+                        
+                        "Entrega 1: Proposta do Projeto",
+                        "Entrega 2: Jogo pronto com o código no GitHub",
+                        "Entrega 3: Feira de todos os projetos",
+
+
+                    "CONCLUSÃO",
+                    
+                        "No final do projeto aprendemos a utilizar o pygame e aprimoramos nossas habilidades em python."
             ]
         }
             }
         }
     }
+
+    

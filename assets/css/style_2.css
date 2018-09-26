@@ -80,8 +80,13 @@ header {
 	
 	border-style: solid;
 	font-family: Roboto Condensed, Helvetica, sans-serif;
+<<<<<<< HEAD
 	background-color:(236, 62, 66);
 	font-size: 1.5rem;
+=======
+	background-color: rgb(236, 62, 66); 
+	font-size: 0.5rem;
+>>>>>>> 9ff2c9ddeebe57e92976134bd1c0123a5f6af335
 	font-weight: bold;
 	color: rgb(0,0,0);
 	text-align: center;

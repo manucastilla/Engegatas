@@ -35,6 +35,10 @@ header {
 	
 
 	border-style: solid;
+<<<<<<< HEAD
+=======
+	border-radius: 60rem;
+>>>>>>> parent of be1e375... texto alinhado
 	background-color: rgb(253, 206, 5);
 	font-size: 2.5rem;
 	text-align: center;
@@ -65,8 +69,13 @@ header {
 
 	grid-row-start:  1;
 	grid-row-end: 2;
+<<<<<<< HEAD
 	grid-column-start: 6;
 	grid-column-end:6; 
+=======
+	grid-column-start: 11;
+	grid-column-end: 11; 
+>>>>>>> parent of be1e375... texto alinhado
 }
 
 .topico2{

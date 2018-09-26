@@ -146,11 +146,14 @@ header {
 
 
 
-
-
-
-
 @media (max-width: 375px) {
+	.topperson{
+		display: flex;
+		text-align: left;
+		justify-content: flex-start;
+		
+	}
+
 	.imagem {
 		width: 40px;
 		position: relative;

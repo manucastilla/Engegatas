@@ -6,28 +6,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	let url = '/' + params['topico'] + '/courses'
 
-	let url2 = '/' + params['projeto'] + '/courses'
+	let url2 = '/'+ params['topico'] + '/courses/' + params['projeto'] 
 
 	console.log(url)
+	console.log(url2)
 
 	db.download(url2,function(data){
-		for (let key of data){
-			if (key == empresa )
-				replace('body', {
-				'curs': data[key][goals],
-				'nome': data[key][nome],
+		console.log(data)
+			replace('body', {
+				'curs': data['goals'],
+				'nome': data['nome'],
 
-		})
-			console.log(data[key][nome])
-		}
-		
+			})
+			console.log(data['nome'])
+	
 	})
-
+/*
     db.download(url, function(data) {
     	replace('body', {
     		'courses': data,
     	})
-    })
+    })*/
 /*
 	db.download(url, function(data) {
 		for(key in data){

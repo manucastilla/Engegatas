@@ -6,27 +6,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	let url = '/' + params['topico'] + '/courses'
 
-	let url2 = '/'+ params['topico'] + '/courses/' + params['projeto'] 
 
-	console.log(url)
-	console.log(url2)
+/*	console.log(url)
+	console.log(url2)*/
 
-	db.download(url2,function(data){
-		console.log(data)
-			replace('body', {
-				'curs': data['goals'],
-				'nome': data['nome'],
-
-			})
-			console.log(data['nome'])
-	
-	})
-/*
-    db.download(url, function(data) {
+	db.download(url, function(data) {
     	replace('body', {
     		'courses': data,
     	})
-    })*/
+
+
+	let url2 = '/'+ params['topico'] + '/courses/' + params['projeto'] 
+
+	/*db.download(url2,function(data){
+
+			replace('body', {
+				'nom': data['nome'],
+				'curs': data['goals'],
+
+			})
+			console.log(data)*/
+	
+	})
+
+
 /*
 	db.download(url, function(data) {
 		for(key in data){
@@ -49,4 +52,4 @@ document.addEventListener('DOMContentLoaded', function() {
 			//console.log(data[key]['nome'])
 		//} 
   	//})
-})
+

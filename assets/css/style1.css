@@ -125,7 +125,7 @@ header {
 
 }
 
-	.topico1{
+	/*.topico1{
 		position: absolute;
 		grid-column-start: 21;
         grid-column-end: 21;
@@ -154,6 +154,6 @@ header {
 		display: inline;
 	}
 
-	
+	*/
 
 }
